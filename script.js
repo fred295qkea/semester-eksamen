@@ -19,7 +19,3 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll(".hide");
 hiddenElements.forEach((el) => observer.observe(el));
-
-/*if ((document.querySelector(".tema").classList = "show")) {
-  document.querySelector(".lært").classList.add("plads");
-}*/

@@ -9,7 +9,6 @@
 
 img {
   width: 100%;
-  height: 100%;
 }
 
 body {
@@ -190,6 +189,13 @@ h2 {
   font-size: 1.5rem;
   line-height: 2rem;
 }
+
+.tekst a {
+  color: #283618;
+  font-family: "Rasa", serif;
+  font-size: 1.4rem;
+}
+
 .landing {
   margin-bottom: 20%;
 }
@@ -201,6 +207,7 @@ h2 {
 .show {
   opacity: 1;
   filter: blur(0);
+  transition: all 3s ease;
 }
 
 .hide {
@@ -232,4 +239,18 @@ table {
 
 td {
   width: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30%;
+}
+.column img {
+  margin: 20px;
+  object-fit: contain;
+}
+
+.billeder {
+  margin-bottom: 40px;
 }
