@@ -2,6 +2,15 @@ addEventListener("load", loaded);
 
 function loaded() {
   console.log("siden er loaded");
+  document.querySelector(".burger").addEventListener("click", burger);
+}
+
+function burger() {
+  document.querySelector(".burger").classList.toggle("skjul");
+  document.querySelector(".xmark").classList.toggle("skjul");
+  document.querySelector(".burgerlist").classList.toggle("skjul");
+
+  document.querySelector(".xmark").addEventListener("click", burger);
 }
 
 const observer = new IntersectionObserver((entries) => {

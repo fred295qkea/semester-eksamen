@@ -17,15 +17,94 @@
 
 <body>
     <header>
-        ß <nav class="navbar">
-            <a href="#"><img src="img/logo.svg" alt="logo"></a>
-            <ul>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="#">Biografi</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar">
+            <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
 
+            <ul class="navigation">
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="biografi.html">Biografi</a></li>
+            </ul>
+            <div class="burgermenu">
+                <i class="burger fa-solid fa-bars fa-2xl"></i>
+                <i class="xmark skjul fa-solid fa-xmark fa-2xl"></i>
+
+                <ul class="burgerlist skjul">
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="biografi.html">Biografi</a></li>
+                </ul>
+            </div>
+
+        </nav>
     </header>
+    <main>
+        <div class="grid1_1">
+            <div class="navn">
+                <h1>Frederik Jensen</h1>
+                <h2>studenrende</h2>
+                <h2>Multimediedesigner</h2>
+            </div>
+            <div class="portrætfoto">
+                <div class="portræt"></div>
+                <div class="circ1"></div>
+                <div class="circ2"></div>
+            </div>
+        </div>
+        <div class="beskrivelse">
+            <div class="mig">
+                <h2>Hvem er jeg?</h2>
+                <p>Jeg tror at min første interesse fra
+                    Hjemmesider kom da jeg en aften sad ved
+                    Min computer og kedede mig. Jeg googlede
+                    Mig frem til hvordan man lærte at
+                    Programmere og kom let i gang der.
+                    Det gik dog hurtigt død, men drømmen kom igen i live, da jeg startede på gymnasiet
+                    Og kunne få programmering som fag der. Jeg har siden da lært meget om hjemmesider
+                    Og programmering, men interessen er kun blevet større deraf. Jeg er kæmpe stor fan af interaktion på
+                    hjemmesider. Jeg er vild med runde former og alt som gør at siden ikke "bare er ligesom alle andre"
+                </p>
+            </div>
+            <div class="cv">
+                <div class="kompetencer">
+                    <h2>Kompetencer</h2>
+                    <table>
+                        <tr>
+                            <td>-</td>
+                            <td id="bredde">HTML, CSS & JavaScript</td>
+
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td id="bredde">Website design</td>
+
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td id="bredde">Adobe programmer</td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td id="bredde">Website analyse</td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td id="bredde">UX</td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td id="bredde">Dataindsamling</td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td id="bredde">Pitching</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="foto">
+                    <img src="img/site.webp" alt="Frederik">
+                </div>
+            </div>
+        </div>
+    </main>
     <footer>
         <div class="footcon">
             <div class="row">
@@ -63,6 +142,7 @@
         </div>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
